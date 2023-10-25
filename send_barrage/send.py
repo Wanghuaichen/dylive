@@ -9,7 +9,7 @@ import requests
 # from loguru import logger
 from faker import Faker
 fake = Faker('zh_CN')
-from 纯算_signatuer import get_ac_signatuer
+from signatuer import get_ac_signatuer
 
 
 def str_to_Uint8Array(a):
